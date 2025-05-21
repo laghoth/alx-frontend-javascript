@@ -16,7 +16,7 @@
   \********************/
 /***/ (() => {
 
-eval("\r\n// Example\r\nconst teacher3 = {\r\n    firstName: \"John\",\r\n    lastName: \"Doe\",\r\n    fullTimeEmployee: false,\r\n    location: \"London\",\r\n    contract: false, // extra property allowed\r\n};\r\nconst director1 = {\r\n    firstName: \"John\",\r\n    lastName: \"Doe\",\r\n    fullTimeEmployee: true,\r\n    location: \"London\",\r\n    contract: false,\r\n    numberOfReports: 17,\r\n};\r\nconsole.log(teacher3);\r\n\n\n//# sourceURL=webpack://task_1/./js/main.ts?");
+eval("\r\n// Example\r\nconst teacher3 = {\r\n    firstName: \"John\",\r\n    lastName: \"Doe\",\r\n    fullTimeEmployee: false,\r\n    location: \"London\",\r\n    contract: false, // extra property allowed\r\n};\r\nconst director1 = {\r\n    firstName: \"John\",\r\n    lastName: \"Doe\",\r\n    fullTimeEmployee: true,\r\n    location: \"London\",\r\n    contract: false,\r\n    numberOfReports: 17,\r\n};\r\nconsole.log(teacher3);\r\nconst printTeacher = (firstName, lastName) => {\r\n    return `${firstName.charAt(0)}. ${lastName}`;\r\n};\r\nconsole.log(printTeacher(\"John\", \"Doe\")); // J. Doe\r\n// The class implementation\r\nclass StudentClass {\r\n    constructor(firstName, lastName) {\r\n        this.firstName = firstName;\r\n        this.lastName = lastName;\r\n    }\r\n    workOnHomework() {\r\n        return \"Currently working\";\r\n    }\r\n    displayName() {\r\n        return this.firstName;\r\n    }\r\n}\r\n// Example usage\r\nconst student = new StudentClass(\"Karim\", \"Benzema\");\r\nconsole.log(student.displayName()); // Karim\r\nconsole.log(student.workOnHomework()); // Currently working\r\n// -------------------------------------\r\n\n\n//# sourceURL=webpack://task_1/./js/main.ts?");
 
 /***/ })
 
